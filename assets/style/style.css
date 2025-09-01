@@ -141,6 +141,12 @@ main img {
     width: 100%;
 }
 
+img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
 main img.pequena {
     max-width: 350px;
     margin: auto;
@@ -206,139 +212,3 @@ footer a:hover {
 }
 
 
-/* 
-
-
-@charset "UTF-8";
-
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kaushan+Script&family=Nata+Sans:wght@100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
-
-@font-face {
-    font-family: "Android";
-    src: url("/assets/fontes/idroid.otf") format("opentype");
-}
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    background-color: blanchedalmond;
-}
-
-main {
-    background-color: white;
-    padding: 50px;
-    margin: 10px 50px 50px 50px;
-    border-radius: 10px;
-    box-shadow: -2px 2px 8px #656565;
-}
-
-header {
-    background-image: linear-gradient(#37C374, #1A5C38 );    
-}
-
-header h1 {
-    color: white;
-    font-family: 'Bebas Neue';
-    font-weight: normal;
-    text-align: center;
-    padding-top: 50px;
-     
-}
-
-header p{
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 50px;
-}
-
-
-nav a {
-    color: white;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-bottom: 2px;
-    padding: 0px 7px 2px 7px;
-}
-
-nav a:hover {
-    background-color: #05794e;
-    border-radius: 12px 12px 9px 9px;
-}
-
-h2{
-    font-family: "Android";
-    color: #005300;
-    padding-bottom: 30px;
-    font-size: 2em;
-    letter-spacing: 2px;
-}
-
-main p {
-    font-family: sans-serif;
-    text-align: justify;
-}
-
-h3 {
-    font-family: "Android";
-    color: #005500a8;
-    background-image: linear-gradient(to right, rgb(193, 238, 193), rgb(202, 224, 202));
-}
-
-.bugDroid {
-    margin: auto;
-    display: block;
-}
-
-.fundoVideo {
-    background-color: #c4e9c488;
-    padding: 20px 10px 20px 0;
-    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.404)
-}
-
-iframe {
-    margin: auto;
-    display: block;
-}
-
-.saberMais {
-    background-color: #bad8ba;
-    padding: 20px;
-}
-
-h4 {
-    color: #005300;
-    background-color: #6f856f42;
-    padding: 20px;
-    font-family: 'Android';
-    border-radius: 5px;
-}
-
-footer {
-    background-color: #1C653D;
-    text-align: center;
-    color: white;
-    padding: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-ul {
-    column-count: 2;
-    list-style: none;
-    padding: 0;
-}
-
-li {
-    margin-bottom: 5px;
-}
-
-.saberMais p {
-    font-family: Arial, Helvetica, sans-serif;
-    
-}
-
-*/
